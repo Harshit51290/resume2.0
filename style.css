@@ -201,4 +201,17 @@ button {
     transform: translateY(10px);
     transition: 100ms;
   }
-  
+  /* Responsive styles for mobile devices */
+@media only screen and (max-width: 768px) {
+    #page1 > #right-text,
+    #page1 > #left-text {
+        top: 10%;
+        left: 2%;
+        right: 2%;
+    }
+
+    #page1 > #right-text > h1,
+    #page1 > #left-text > h1 {
+        font-size: 20px;
+    }
+}
